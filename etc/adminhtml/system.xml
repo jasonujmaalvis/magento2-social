@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Jason Alvis Social
+ *
+ * @category    Jasonalvis
+ * @package     Jasonalvis_Social
+ * @author      Jason Alvis <hello@jasonalvis.co.uk>
+ * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
+ * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="jasonalvis_social" translate="label" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Social Media</label>
+            <tab>jasonalvis_core</tab>
+            <resource>Jasonalvis_Social::admin</resource>
+            <group id="profiles" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Profiles</label>
+                <field id="enabled" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="twitter_url" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Twitter Url</label>
+                </field>
+                <field id="facebook_url" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Facebook Url</label>
+                </field>
+                <field id="instagram_url" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Instagram Url</label>
+                </field>
+                <field id="pinterest_url" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Pinterest Url</label>
+                </field>
+                <field id="github_url" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>GitHub Url</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

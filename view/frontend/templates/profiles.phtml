@@ -1,0 +1,32 @@
+<?php
+/**
+ * Jason Alvis Social
+ *
+ * @category    Jasonalvis
+ * @package     Jasonalvis_Social
+ * @author      Jason Alvis <hello@jasonalvis.co.uk>
+ * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
+ * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ */
+?>
+<ul class="footer links">
+  <?php if($this->getTwitterUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->getTwitterUrl() ?>" title="<?php echo __('Twitter') ?>"><?php echo __('Twitter') ?></a></li>
+  <?php endif; ?>
+
+  <?php if($this->getFacebookUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->getFacebookUrl() ?>" title="<?php echo __('Facebook') ?>"><?php echo __('Facebook') ?></a></li>
+  <?php endif; ?>
+
+  <?php if($this->getInstagramUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->getInstagramUrl() ?>" title="<?php echo __('Instagram') ?>"><?php echo __('Instagram') ?></a></li>
+  <?php endif; ?>
+
+  <?php if($this->getPinterestUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->getPinterestUrl() ?>" title="<?php echo __('Pinterest') ?>"><?php echo __('Pinterest') ?></a></li>
+  <?php endif; ?>
+
+  <?php if($this->getGithubUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->getGithubUrl() ?>" title="<?php echo __('GitHub') ?>"><?php echo __('GitHub') ?></a></li>
+  <?php endif; ?>
+</ul>
