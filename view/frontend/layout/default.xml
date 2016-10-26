@@ -13,7 +13,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="footer">
-            <block name="jasonalvis_social.profiles" class="Jasonalvis\Social\Block\Profiles" before="-" template="profiles.phtml" />
+            <block name="jasonalvis_social.profiles" class="Jasonalvis\Social\Block\Profiles" before="-" template="profiles.phtml" ifconfig="jasonalvis_social/profiles/enabled" />
         </referenceContainer>
     </body>
 </page>
