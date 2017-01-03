@@ -11,22 +11,22 @@
 ?>
 <ul class="footer links">
   <?php if($this->getTwitterUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->getTwitterUrl() ?>" title="<?php echo __('Twitter') ?>"><?php echo __('Twitter') ?></a></li>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getTwitterUrl()) ?>" title="<?php echo $this->escapeHtml(__('Twitter')) ?>"><?php echo $this->escapeHtml(__('Twitter')) ?></a></li>
   <?php endif; ?>
 
   <?php if($this->getFacebookUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->getFacebookUrl() ?>" title="<?php echo __('Facebook') ?>"><?php echo __('Facebook') ?></a></li>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getFacebookUrl()) ?>" title="<?php echo $this->escapeHtml(__('Facebook')) ?>"><?php echo $this->escapeHtml(__('Facebook')) ?></a></li>
   <?php endif; ?>
 
   <?php if($this->getInstagramUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->getInstagramUrl() ?>" title="<?php echo __('Instagram') ?>"><?php echo __('Instagram') ?></a></li>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getInstagramUrl()) ?>" title="<?php echo $this->escapeHtml(__('Instagram')) ?>"><?php echo $this->escapeHtml(__('Instagram')) ?></a></li>
   <?php endif; ?>
 
   <?php if($this->getPinterestUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->getPinterestUrl() ?>" title="<?php echo __('Pinterest') ?>"><?php echo __('Pinterest') ?></a></li>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getPinterestUrl()) ?>" title="<?php echo $this->escapeHtml(__('Pinterest')) ?>"><?php echo $this->escapeHtml(__('Pinterest')) ?></a></li>
   <?php endif; ?>
 
   <?php if($this->getGithubUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->getGithubUrl() ?>" title="<?php echo __('GitHub') ?>"><?php echo __('GitHub') ?></a></li>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getGithubUrl()) ?>" title="<?php echo $this->escapeHtml(__('GitHub')) ?>"><?php echo $this->escapeHtml(__('GitHub')) ?></a></li>
   <?php endif; ?>
 </ul>

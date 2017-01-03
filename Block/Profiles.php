@@ -37,7 +37,7 @@ class Profiles extends \Magento\Framework\View\Element\Template
      */
     public function getTwitterUrl()
     {
-        return $this->escapeHtml($this->_helper->getTwitterUrl());
+        return $this->_helper->getTwitterUrl();
     }
 
     /**
@@ -46,7 +46,7 @@ class Profiles extends \Magento\Framework\View\Element\Template
      */
     public function getFacebookUrl()
     {
-        return $this->escapeHtml($this->_helper->getFacebookUrl());
+        return $this->_helper->getFacebookUrl();
     }
 
     /**
@@ -55,7 +55,7 @@ class Profiles extends \Magento\Framework\View\Element\Template
      */
     public function getInstagramUrl()
     {
-        return $this->escapeHtml($this->_helper->getInstagramUrl());
+        return $this->_helper->getInstagramUrl();
     }
 
     /**
@@ -64,7 +64,7 @@ class Profiles extends \Magento\Framework\View\Element\Template
      */
     public function getPinterestUrl()
     {
-        return $this->escapeHtml($this->_helper->getPinterestUrl());
+        return $this->_helper->getPinterestUrl();
     }
 
     /**
@@ -73,7 +73,7 @@ class Profiles extends \Magento\Framework\View\Element\Template
      */
     public function getGithubUrl()
     {
-        return $this->escapeHtml($this->_helper->getGithubUrl());
+        return $this->_helper->getGithubUrl();
     }
 
     /**
