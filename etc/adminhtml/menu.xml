@@ -3,8 +3,8 @@
 /**
  * Jason Alvis Social
  *
- * @category    Jasonalvis
- * @package     Jasonalvis_Social
+ * @category    JasonAlvis
+ * @package     JasonAlvis_Social
  * @author      Jason Alvis
  * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
  * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
@@ -12,7 +12,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Jasonalvis_Social::admin" title="Social Media" module="Jasonalvis_Social" sortOrder="0" parent="Jasonalvis_Core::admin" resource="Jasonalvis_Social::admin" />
-        <add id="Jasonalvis_Social::profiles" title="Profiles" module="Jasonalvis_Social" sortOrder="0" parent="Jasonalvis_Social::admin" action="adminhtml/system_config/edit/section/jasonalvis_social" resource="Jasonalvis_Social::profiles" />
+        <add id="JasonAlvis_Social::admin" title="Social Media" module="JasonAlvis_Social" sortOrder="0" parent="JasonAlvis_Core::admin" resource="JasonAlvis_Social::admin" />
+        <add id="JasonAlvis_Social::profiles" title="Profiles" module="JasonAlvis_Social" sortOrder="0" parent="JasonAlvis_Social::admin" action="adminhtml/system_config/edit/section/jasonalvis_social" resource="JasonAlvis_Social::profiles" />
     </menu>
 </config>

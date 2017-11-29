@@ -2,30 +2,30 @@
 /**
  * Jason Alvis Social
  *
- * @category    Jasonalvis
- * @package     Jasonalvis_Social
+ * @category    JasonAlvis
+ * @package     JasonAlvis_Social
  * @author      Jason Alvis
  * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
  * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  */
-namespace Jasonalvis\Social\Block;
+namespace JasonAlvis\Social\Block;
 
 class Profiles extends \Magento\Framework\View\Element\Template
 {
     /**
-     * @var \Jasonalvis\Social\Helper\Data
+     * @var \JasonAlvis\Social\Helper\Data
      */
     protected $_helper;
 
     /**
      * @param \Magento\Framework\View\Element\Template\Context $context
      * @param array                                            $data
-     * @param \Jasonalvis\Social\Helper\Data                   $helper
+     * @param \JasonAlvis\Social\Helper\Data                   $helper
      */
     public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
         array $data = [],
-        \Jasonalvis\Social\Helper\Data $helper
+        \JasonAlvis\Social\Helper\Data $helper
     ) {
         $this->_helper = $helper;
         parent::__construct($context, $data);

@@ -2,31 +2,31 @@
 /**
  * Jason Alvis Social
  *
- * @category    Jasonalvis
- * @package     Jasonalvis_Social
+ * @category    JasonAlvis
+ * @package     JasonAlvis_Social
  * @author      Jason Alvis
  * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
  * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  */
 ?>
 <ul class="footer links">
-  <?php if($this->getTwitterUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getTwitterUrl()) ?>" title="<?php echo $this->escapeHtml(__('Twitter')) ?>"><?php echo $this->escapeHtml(__('Twitter')) ?></a></li>
+  <?php if($twitterUrl = $this->getTwitterUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($twitterUrl) ?>" title="<?php echo $this->escapeHtml(__('Twitter')) ?>"><?php echo $this->escapeHtml(__('Twitter')) ?></a></li>
   <?php endif; ?>
 
-  <?php if($this->getFacebookUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getFacebookUrl()) ?>" title="<?php echo $this->escapeHtml(__('Facebook')) ?>"><?php echo $this->escapeHtml(__('Facebook')) ?></a></li>
+  <?php if($facebookUrl = $this->getFacebookUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($facebookUrl) ?>" title="<?php echo $this->escapeHtml(__('Facebook')) ?>"><?php echo $this->escapeHtml(__('Facebook')) ?></a></li>
   <?php endif; ?>
 
-  <?php if($this->getInstagramUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getInstagramUrl()) ?>" title="<?php echo $this->escapeHtml(__('Instagram')) ?>"><?php echo $this->escapeHtml(__('Instagram')) ?></a></li>
+  <?php if($instagramUrl = $this->getInstagramUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($instagramUrl) ?>" title="<?php echo $this->escapeHtml(__('Instagram')) ?>"><?php echo $this->escapeHtml(__('Instagram')) ?></a></li>
   <?php endif; ?>
 
-  <?php if($this->getPinterestUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getPinterestUrl()) ?>" title="<?php echo $this->escapeHtml(__('Pinterest')) ?>"><?php echo $this->escapeHtml(__('Pinterest')) ?></a></li>
+  <?php if($pinterestUrl = $this->getPinterestUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($pinterestUrl) ?>" title="<?php echo $this->escapeHtml(__('Pinterest')) ?>"><?php echo $this->escapeHtml(__('Pinterest')) ?></a></li>
   <?php endif; ?>
 
-  <?php if($this->getGithubUrl()): ?>
-    <li class="nav item"><a href="<?php echo $this->escapeUrl($this->getGithubUrl()) ?>" title="<?php echo $this->escapeHtml(__('GitHub')) ?>"><?php echo $this->escapeHtml(__('GitHub')) ?></a></li>
+  <?php if($githubUrl = $this->getGithubUrl()): ?>
+    <li class="nav item"><a href="<?php echo $this->escapeUrl($githubUrl) ?>" title="<?php echo $this->escapeHtml(__('GitHub')) ?>"><?php echo $this->escapeHtml(__('GitHub')) ?></a></li>
   <?php endif; ?>
 </ul>

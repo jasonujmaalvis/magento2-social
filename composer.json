@@ -21,7 +21,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Jasonalvis\\Social\\": ""
+            "JasonAlvis\\Social\\": ""
         }
     }
 }

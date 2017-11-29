@@ -2,13 +2,13 @@
 /**
  * Jason Alvis Social
  *
- * @category    Jasonalvis
- * @package     Jasonalvis_Social
+ * @category    JasonAlvis
+ * @package     JasonAlvis_Social
  * @author      Jason Alvis
  * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
  * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  */
-namespace Jasonalvis\Social\Helper;
+namespace JasonAlvis\Social\Helper;
 
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
