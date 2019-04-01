@@ -1,27 +1,27 @@
 {
-    "name": "jasonalvis/magento2-social",
+    "name": "alvis/magento2-social",
     "description": "Social media.",
     "type": "magento2-module",
     "authors": [
         {
-            "name": "Jason Alvis",
-            "homepage": "http://jasonalvis.co.uk"
+            "name": "Jason Ujma-Alvis",
+            "homepage": "https://jason.codes"
         }
     ],
     "support": {
-        "source": "https://github.com/jasonalvis/magento2-social",
-        "issues": "https://github.com/jasonalvis/magento2-social/issues"
+        "source": "https://github.com/jasonujmaalvis/magento2-social",
+        "issues": "https://github.com/jasonujmaalvis/magento2-social/issues"
     },
     "license": "MIT",
     "require": {
-        "jasonalvis/magento2-core": "~0.0.1"
+        "alvis/magento2-core": "~0.0.1"
     },
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "JasonAlvis\\Social\\": ""
+            "Alvis\\Social\\": ""
         }
     }
 }

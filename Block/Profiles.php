@@ -1,31 +1,33 @@
 <?php
 /**
- * Jason Alvis Social
+ * Alvis Social
  *
- * @category    JasonAlvis
- * @package     JasonAlvis_Social
- * @author      Jason Alvis
- * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
+ * @category    Alvis
+ * @package     Alvis_Social
+ * @author      Jason Ujma-Alvis
+ * @copyright   Copyright (c) 2019 Jason Ujma-Alvis (https://jason.codes)
  * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  */
-namespace JasonAlvis\Social\Block;
+namespace Alvis\Social\Block;
 
-class Profiles extends \Magento\Framework\View\Element\Template
+use \Magento\Framework\View\Element\Template;
+
+class Profiles extends Template
 {
     /**
-     * @var \JasonAlvis\Social\Helper\Data
+     * @var \Alvis\Social\Helper\Data
      */
     protected $_helper;
 
     /**
      * @param \Magento\Framework\View\Element\Template\Context $context
      * @param array                                            $data
-     * @param \JasonAlvis\Social\Helper\Data                   $helper
+     * @param \Alvis\Social\Helper\Data                        $helper
      */
     public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
         array $data = [],
-        \JasonAlvis\Social\Helper\Data $helper
+        \Alvis\Social\Helper\Data $helper
     ) {
         $this->_helper = $helper;
         parent::__construct($context, $data);

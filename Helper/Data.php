@@ -1,14 +1,14 @@
 <?php
 /**
- * Jason Alvis Social
+ * Alvis Social
  *
- * @category    JasonAlvis
- * @package     JasonAlvis_Social
- * @author      Jason Alvis
- * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
+ * @category    Alvis
+ * @package     Alvis_Social
+ * @author      Jason Ujma-Alvis
+ * @copyright   Copyright (c) 2019 Jason Ujma-Alvis (https://jason.codes)
  * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  */
-namespace JasonAlvis\Social\Helper;
+namespace Alvis\Social\Helper;
 
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
@@ -19,12 +19,12 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
      */
     protected $_scopeConfig;
 
-    CONST PROFILES_ENABLED       = 'jasonalvis_social/profiles/enabled';
-    CONST PROFILES_TWITTER_URL   = 'jasonalvis_social/profiles/twitter_url';
-    CONST PROFILES_FACEBOOK_URL  = 'jasonalvis_social/profiles/facebook_url';
-    CONST PROFILES_INSTAGRAM_URL = 'jasonalvis_social/profiles/instagram_url';
-    CONST PROFILES_PINTEREST_URL = 'jasonalvis_social/profiles/pinterest_url';
-    CONST PROFILES_GITHUB_URL    = 'jasonalvis_social/profiles/github_url';
+    CONST PROFILES_ENABLED       = 'alvis_social/profiles/enabled';
+    CONST PROFILES_TWITTER_URL   = 'alvis_social/profiles/twitter_url';
+    CONST PROFILES_FACEBOOK_URL  = 'alvis_social/profiles/facebook_url';
+    CONST PROFILES_INSTAGRAM_URL = 'alvis_social/profiles/instagram_url';
+    CONST PROFILES_PINTEREST_URL = 'alvis_social/profiles/pinterest_url';
+    CONST PROFILES_GITHUB_URL    = 'alvis_social/profiles/github_url';
 
     /**
      * @param \Magento\Framework\App\Config\ScopeConfigInterface $scopeInterface

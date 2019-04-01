@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Jason Alvis Social
+ * Alvis Social
  *
- * @category    JasonAlvis
- * @package     JasonAlvis_Social
- * @author      Jason Alvis
- * @copyright   Copyright (c) 2016 Jason Alvis (http://jasonalvis.co.uk)
+ * @category    Alvis
+ * @package     Alvis_Social
+ * @author      Jason Ujma-Alvis
+ * @copyright   Copyright (c) 2019 Jason Ujma-Alvis (https://jason.codes)
  * @license     http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="footer">
-            <block name="jasonalvis_social.profiles" class="JasonAlvis\Social\Block\Profiles" before="-" template="profiles.phtml" ifconfig="jasonalvis_social/profiles/enabled" />
+            <block name="alvis_social.profiles" class="Alvis\Social\Block\Profiles" before="-" template="profiles.phtml" ifconfig="alvis_social/profiles/enabled" />
         </referenceContainer>
     </body>
 </page>
